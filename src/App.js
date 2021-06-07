@@ -11,7 +11,6 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
-        <Header />
         <HomePage />
 
         <ReactQueryDevtools initialIsOpen={false} />
