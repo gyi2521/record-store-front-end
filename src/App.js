@@ -1,5 +1,4 @@
 import { ChakraProvider, theme } from '@chakra-ui/react';
-//import { Footer, Header } from 'components';
 import { HomePage } from 'pages';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
