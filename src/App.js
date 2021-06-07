@@ -13,7 +13,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <Header />
         <HomePage />
-        <Footer />
+
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </ChakraProvider>
